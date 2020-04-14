@@ -50,10 +50,61 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	margin:0;
+	padding: 2, 0;
 }
 
 html, body {
-    height: 100%;
+	height: 100%;
 }
+@main-color: #f7dff3;
+@second-color:#91668a;
+.flexin (@justify, @align) {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  }
+
+div.header{
+
+
+nav{
+	.flexin(space-between,center)
+
+ a {
+	color:@second-color;
+}
+
+.first{
+	.flexin()}
+
+}
+
+section.image{
+padding: 10px;
+margin: 10%;
+
+img {
+	width:50%;
+	   
+} 
+
+.two{
+	.flexin(center,center)
+}
+    
+.address{
+	flex-direction:row;
+	width: 45%;
+}
+}
+
+	
+
+	
+
+
+
+
 
